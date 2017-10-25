@@ -32,8 +32,8 @@
         </div>
         <div class="toolbar tabbar tabbar-labels">
             <div class="toolbar-inner">
-                <a id="tomar_foto" class="tab-link">
-                    <i class="f7-icons">home</i>
+                <a id="tomar_foto" class="tab-link active">
+                    <i class="f7-icons">camera_fill</i>
                     <span class="tabbar-label">Tomar Foto</span>
                 </a>
             </div>
@@ -45,12 +45,19 @@
           <div data-page="index" class="page">
             <!-- Scrollable page content-->
             <div class="page-content">
-
-              <center>
-                <img id="foto" src="" width="300px" height="300px" style="margin:20px;" />
-                <br/>
-                <a id="btn" class="button" style="margin:10px;">Tomar Foto</a>
-              </center>
+                <div class="card">
+                  <div class="card-header">Mis Fotos</div>
+                  <div class="card-content">
+                    <div class="list-block media-list">
+                      <ul id="container_foto">
+                        
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <span>25 de Octubre de 2017</span>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
